@@ -9,11 +9,13 @@ import { Col, Container, Row } from "reactstrap";
 import { fetchTours, fetchTourCount } from "../redux/action/tourAction";
 
 const Tours = () => {
-  const toursPerPage = 4;
+  const toursPerPage = 8;
   const [currentPage, setCurrentPage] = useState(1);
   const { tours, loading, error, tourCount } = useSelector(
     (state) => state.tour
   );
+
+  console.log(tours);
 
   useEffect(() => {
     dispatch(fetchTours());

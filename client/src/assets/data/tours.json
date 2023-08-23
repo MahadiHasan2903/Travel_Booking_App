@@ -9,7 +9,7 @@
     "desc": "this is the description",
     "reviews": [],
 
-    "photo": "/src/assets/tour-images/tour-img01.jpg",
+    "photo": "https://i.postimg.cc/RhwkFpsF/tour-img01.jpg",
     "featured": true
   },
   {
@@ -22,7 +22,7 @@
     "desc": "this is the description",
     "reviews": [],
 
-    "photo": "/src/assets/tour-images/tour-img02.jpg",
+    "photo": "https://i.postimg.cc/YCCPKSHj/tour-img02.jpg",
     "featured": true
   },
   {
@@ -35,7 +35,7 @@
     "desc": "this is the description",
     "reviews": [],
 
-    "photo": "/src/assets/tour-images/tour-img03.jpg",
+    "photo": "https://i.postimg.cc/Nf4nzHZW/tour-img03.jpg",
     "featured": true
   },
   {
@@ -48,7 +48,7 @@
     "desc": "this is the description",
     "reviews": [],
 
-    "photo": "/src/assets/tour-images/tour-img04.jpg",
+    "photo": "https://i.postimg.cc/X73hL81f/tour-img04.jpg",
     "featured": true
   },
   {
@@ -61,7 +61,7 @@
     "desc": "this is the description",
     "reviews": [],
 
-    "photo": "/src/assets/tour-images/tour-img05.jpg",
+    "photo": "https://i.postimg.cc/tgLvxtVV/tour-img05.jpg",
     "featured": true
   },
   {
@@ -74,7 +74,7 @@
     "desc": "this is the description",
     "reviews": [],
 
-    "photo": "/src/assets/tour-images/tour-img06.jpg",
+    "photo": "https://i.postimg.cc/vBfqLgW2/tour-img06.jpg",
     "featured": true
   },
   {
@@ -87,35 +87,10 @@
     "desc": "this is the description",
     "reviews": [],
 
-    "photo": "/src/assets/tour-images/tour-img07.jpg",
+    "photo": "https://i.postimg.cc/8zX01Vp4/tour-img07.jpg",
     "featured": true
   },
 
-  {
-    "title": "Jaflong, Sylhet",
-    "city": "Sylhet",
-    "address": "Somewhere in Sylhet",
-    "distance": 100,
-    "price": 99,
-    "maxGroupSize": 5,
-    "desc": "this is the description",
-    "reviews": [],
-    "photo": "/src/assets/tour-images/tour-img08.jpg",
-    "featured": true
-  },
-  {
-    "title": "Cox's Bazar Sea Beach",
-    "city": "Chittagong",
-    "address": "Somewhere in Chittagong",
-    "distance": 500,
-    "price": 99,
-    "maxGroupSize": 8,
-    "desc": "this is the description",
-    "reviews": [],
-
-    "photo": "/src/assets/tour-images/tour-img09.jpg",
-    "featured": true
-  },
   {
     "title": "Beautiful Snowy Mountains",
     "city": "Bangkok",
@@ -126,7 +101,152 @@
     "desc": "this is the description",
     "reviews": [],
 
-    "photo": "/src/assets/tour-images/tour-img10.jpg",
+    "photo": "https://i.postimg.cc/Nf4nzHZW/tour-img03.jpg",
+    "featured": true
+  },
+
+  {
+    "title": "Eiffel Tower",
+    "city": "Paris",
+    "address": "Champ de Mars, 5 Avenue Anatole, France",
+    "distance": 100,
+    "price": 150,
+    "maxGroupSize": 12,
+    "desc": "Iconic iron lattice tower and a symbol of Paris.",
+    "reviews": [],
+    "photo": "https://i.postimg.cc/DmN8mRfk/eiffel-tower.png",
+    "featured": true
+  },
+  {
+    "title": "Grand Canyon",
+    "city": "Arizona",
+    "address": "Grand Canyon National Park, USA",
+    "distance": 800,
+    "price": 200,
+    "maxGroupSize": 15,
+    "desc": "A breathtaking natural wonder known for its vast landscapes.",
+    "reviews": [],
+    "photo": "https://i.postimg.cc/rKtz4gzd/grand-canyon.jpg",
+    "featured": true
+  },
+  {
+    "title": "Santorini",
+    "city": "Thira",
+    "address": "Cyclades, Greece",
+    "distance": 300,
+    "price": 180,
+    "maxGroupSize": 10,
+    "desc": "Famous for its stunning sunsets and white-washed buildings.",
+    "reviews": [],
+    "photo": "https://i.postimg.cc/CRG1P1GS/santorini.jpg",
+    "featured": true
+  },
+  {
+    "title": "Machu Picchu",
+    "city": "Cusco",
+    "address": "Urubamba Province, Peru",
+    "distance": 700,
+    "price": 220,
+    "maxGroupSize": 10,
+    "desc": "Incan citadel in the Andes, a UNESCO World Heritage site.",
+    "reviews": [],
+    "photo": "https://i.postimg.cc/CzZnNSrx/machu-Picchu.jpg",
+    "featured": true
+  },
+  {
+    "title": "Pyramids of Giza",
+    "city": "Giza",
+    "address": "Giza Governorate, Egypt",
+    "distance": 50,
+    "price": 120,
+    "maxGroupSize": 15,
+    "desc": "Ancient monuments including the Great Pyramid and Sphinx.",
+    "reviews": [],
+    "photo": "https://i.postimg.cc/7Gsb3Wgz/giza.jpg",
+    "featured": true
+  },
+  {
+    "title": "Venice Canals",
+    "city": "Venice",
+    "address": "Veneto, Italy",
+    "distance": 150,
+    "price": 130,
+    "maxGroupSize": 12,
+    "desc": "Famous for its intricate canal system and romantic ambiance.",
+    "reviews": [],
+    "photo": "https://i.postimg.cc/68n7kzXs/canal.jpg",
+    "featured": true
+  },
+  {
+    "title": "Great Wall of China",
+    "city": "Beijing",
+    "address": "Northern China",
+    "distance": 600,
+    "price": 180,
+    "maxGroupSize": 10,
+    "desc": "Legendary wall winding across China's northern borders.",
+    "reviews": [],
+    "photo": "https://i.postimg.cc/MMKvjSjx/great-wall-of-china.jpg",
+    "featured": true
+  },
+  {
+    "title": "Niagara Falls",
+    "city": "New York",
+    "address": "Niagara Falls, USA",
+    "distance": 300,
+    "price": 150,
+    "maxGroupSize": 12,
+    "desc": "A world-famous set of waterfalls on the US-Canada border.",
+    "reviews": [],
+    "photo": "https://i.postimg.cc/SXGnssRD/niagra-falls.jpg",
+    "featured": true
+  },
+  {
+    "title": "Mong Kok",
+    "city": "Hong Kong",
+    "address": "Kowloon, Hong Kong",
+    "distance": 20,
+    "price": 80,
+    "maxGroupSize": 15,
+    "desc": "Vibrant street markets and bustling urban district.",
+    "reviews": [],
+    "photo": "https://i.postimg.cc/nXbrG7Q3/Persuasion-in-China.jpg",
+    "featured": true
+  },
+  {
+    "title": "Sydney Opera House",
+    "city": "Sydney",
+    "address": "New South Wales, Australia",
+    "distance": 150,
+    "price": 170,
+    "maxGroupSize": 10,
+    "desc": "Iconic performing arts venue on Sydney's harbor.",
+    "reviews": [],
+    "photo": "https://i.postimg.cc/BXdL7kRc/opera-house.jpg",
+    "featured": true
+  },
+  {
+    "title": "Cox's Bazar Beach",
+    "city": "Cox's Bazar",
+    "address": "Cox's Bazar, Bangladesh",
+    "distance": 10,
+    "price": 50,
+    "maxGroupSize": 20,
+    "desc": "Longest natural sea beach in the world.",
+    "reviews": [],
+    "photo": "https://i.postimg.cc/VSwSmMfJ/coxs-bazar.jpg",
+    "featured": true
+  },
+  {
+    "title": "Jaflong Tea Gardens",
+    "city": "Sylhet",
+    "address": "Jaflong, Sylhet, Bangladesh",
+    "distance": 60,
+    "price": 30,
+    "maxGroupSize": 15,
+    "desc": "Beautiful tea gardens with stunning landscapes.",
+    "reviews": [],
+    "photo": "https://i.postimg.cc/xNX8t3R4/teagarden.jpg",
     "featured": true
   }
 ]

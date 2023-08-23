@@ -106,28 +106,14 @@ const getSingleTour = async (req, res) => {
 
 // Get All Tour
 const getAllTour = async (req, res) => {
-  const ITEMS_PER_PAGE = 8;
-  const page = parseInt(req.query.page) || 1;
-
   try {
-    const totalToursCount = await Tour.countDocuments();
-    const totalPages = Math.ceil(totalToursCount / ITEMS_PER_PAGE);
-
-    const tours = await Tour.find({})
-      .populate("reviews")
-      .skip((page - 1) * ITEMS_PER_PAGE)
-      .limit(ITEMS_PER_PAGE);
+    const tours = await Tour.find({}).populate("reviews");
 
     res.status(200).json({
       success: true,
       message: "All Tours",
       count: tours.length,
       data: tours,
-      pagination: {
-        currentPage: page,
-        totalPages,
-        totalTours: totalToursCount,
-      },
     });
   } catch (error) {
     res.status(500).json({

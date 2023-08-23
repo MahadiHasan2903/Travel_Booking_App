@@ -21,6 +21,7 @@ app.use(express.json());
 app.use(
   cors({
     origin: "https://travel-world-application.netlify.app",
+    // origin: "http://localhost:5173",
     credentials: true,
   })
 );

@@ -80,7 +80,9 @@ const Header = () => {
         <Row>
           <div className="nav_wrapper d-flex align-items-center justify-content-between">
             <div className="logo">
-              <img src={logo} alt="logo" />
+              <Link to="/">
+                <img src={logo} alt="logo" />
+              </Link>
             </div>
 
             <div className="navigation" ref={menuRef} onClick={toggleMenu}>
