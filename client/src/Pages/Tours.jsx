@@ -4,7 +4,7 @@ import CommonSection from "../shared/CommonSection/CommonSection";
 import "../styles/Tour.css";
 import SearchBar from "../shared/searchbar/SearchBar";
 import Newsletter from "../shared/Newsletter/Newsletter";
-import TourCard from "../shared/TourCard/TourCard";
+import TourCard from "../shared/Tourcard/TourCard";
 import { Col, Container, Row } from "reactstrap";
 import { fetchTours, fetchTourCount } from "../redux/action/tourAction";
 

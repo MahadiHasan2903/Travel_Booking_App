@@ -12,7 +12,6 @@ const Booking = ({ tour, avgRating }) => {
   const { price, reviews, title } = tour.data;
   const navigate = useNavigate();
   const dispatch = useDispatch();
-  const bookingState = useSelector((state) => state.booking);
   const accessToken = localStorage.getItem("accessToken");
   const user = useSelector((state) => state.user.user);
 
