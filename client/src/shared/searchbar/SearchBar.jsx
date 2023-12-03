@@ -13,8 +13,8 @@ import { useNavigate } from "react-router-dom";
 const SearchBar = () => {
   const [formData, setFormData] = useState({
     location: "",
-    distance: null,
-    maxGroupSize: null,
+    distance: "",
+    maxGroupSize: "",
   });
 
   const navigate = useNavigate();
